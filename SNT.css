@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    background-color: #222222;
+    overflow-x:hidden ;
+    color: #fff;
+    justify-content: center;
+    font-family: "Work Sans", arial;
+}
+
+.container {
+    padding: 200px 200px;
+    display: flex;
+    justify-content: center;
+    background-color: #222222;
+    position: relative;
+    overflow: hidden;
+}
+.container h1 {
+    color: #fff;
+    font-family: "Work Sans", arial;
+    font-size: 70px;
+    text-align: center;
+    font-weight: 900;
+    z-index: 2;
+}
+
+/* particles */
+.particules {
+    background-color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    animation-name: particules;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.Ziyad {
+    position: absolute;
+    font-family: "Work Sans", arial;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 25px;
+    font-weight: 900;
+    animation-name: Ziyad;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+#particules1 {
+    height: 250px;
+    width: 250px;
+    bottom: 400px;
+    left: 130px;
+    transform: rotate(65deg);
+    border-radius: 30px;
+}
+#particules2 {
+    height: 450px;
+    width: 450px;
+    bottom: 150px;
+    right: 20%;
+    transform: rotate(130deg);
+    border-radius: 50px;
+    animation-delay: 1s;
+}
+#particules3 {
+    height: 150px;
+    width: 150px;
+    bottom: 120px;
+    right: -20px;
+    transform: rotate(255deg);
+    border-radius: 20px;
+    animation-delay: 2s;
+}
+#particules4 {
+    height: 250px;
+    width: 250px;
+    bottom: 0px;
+    left: 130px;
+    transform: rotate(65deg);
+    border-radius: 50px;
+}
+#Ziyad1 {
+    height: 150px;
+    width: 150px;
+    bottom: 500px;
+    right: 100px;
+}
+#Ziyad2 {
+    height: 150px;
+    width: 150px;
+    bottom: 500px;
+    right: 35px;
+    animation-delay: 2.5s;
+}
+#Ziyad3 {
+    height: 150px;
+    width: 150px;
+    bottom: 500px;
+    right: -20px;
+    animation-delay: 3s;
+}
+
+@keyframes particules {
+    0%{
+        margin-bottom: 0px;
+    }
+
+    50%{
+        margin-bottom: 30px;
+    }
+    100%{
+        margin-bottom: 0px;
+    }
+}
+@keyframes Ziyad {
+    0%{
+        margin-bottom: 0px;
+    }
+
+    50%{
+        margin-bottom: 20px;
+    }
+    100%{
+        margin-bottom: 0px;
+    }
+}
+ol {
+    list-style: none;
+    width: 300px;
+}
+ol li {
+    list-style: none;
+    width: 300px;
+    font-size: 1.2rem;
+    font-family: "Work Sans", arial;
+    background:rgb(23, 23, 23) ;
+    margin: 10px 100px;
+    padding: 25px 10px;
+    cursor: pointer;
+    position: relative;
+    transition: all .4s;
+    z-index: 5;
+}
+
+ol li::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 5px;
+    background-color: red;
+    transition: all .4s;
+    z-index: -1;
+}
+ol li:hover::before {
+    width: 100%;
+}
+
+ol li:nth-child(1)::before {
+    background:#4285f4 ;
+}
+ol li:nth-child(2)::before {
+    background:red ;
+}
+ol li:nth-child(3)::before {
+    background:#f4b400 ;
+}
+ol li:nth-child(4)::before {
+    background:rgb(0, 100, 0) ;
+}
+
+ol li:hover {
+    transform: translateX(20px);
+}
+
+
+

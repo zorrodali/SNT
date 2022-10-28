@@ -1,0 +1,85 @@
+
+body {
+    margin: 40px;
+    background-color: rgb(139, 3, 3);
+    overflow-x:hidden ;
+    color: #fff;
+    font-family: "Work Sans", arial;
+}
+h2 {
+    text-decoration : underline;
+}
+.container {
+    padding: 200px 200px;
+    display: flex;
+    background-color: #222222;
+    position: relative;
+    overflow: hidden;
+}
+.container h1 {
+    color: #fff;
+    font-family: "Work Sans", arial;
+    font-size: 70px;
+    font-weight: 900;
+    z-index: 2;
+}
+
+/* particles */
+.particules {
+    background-color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    animation-name: particules;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+#particules1 {
+    height: 250px;
+    width: 250px;
+    bottom: 400px;
+    left: 130px;
+    transform: rotate(65deg);
+    border-radius: 30px;
+}
+#particules2 {
+    height: 450px;
+    width: 450px;
+    bottom: 150px;
+    right: 20%;
+    transform: rotate(130deg);
+    border-radius: 50px;
+    animation-delay: 1s;
+}
+#particules3 {
+    height: 150px;
+    width: 150px;
+    bottom: 120px;
+    right: -20px;
+    transform: rotate(255deg);
+    border-radius: 20px;
+    animation-delay: 2s;
+}
+#particules4 {
+    height: 250px;
+    width: 250px;
+    bottom: 0px;
+    left: 130px;
+    transform: rotate(65deg);
+    border-radius: 50px;
+}
+
+@keyframes particules {
+    0%{
+        margin-bottom: 0px;
+    }
+
+    50%{
+        margin-bottom: 30px;
+    }
+    100%{
+        margin-bottom: 0px;
+    }
+}
+ul li{
+    font-size: 25px;
+    z-index: 5;
+}
