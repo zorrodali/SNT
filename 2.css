@@ -1,11 +1,8 @@
 body {
   margin: 40px;
-  /* background-color: rgb(139, 3, 3);
-  background-color: #e10808;
-background-image: linear-gradient(-314deg, #e10808 0%, #e15b08 74%); */
   overflow-x:hidden ;
-  color: #fff;
-  background-image: linear-gradient(315deg, #878686 0%, #222222 50%);
+  color: rgb(0, 0, 0);
+  background-image: linear-gradient(-315deg, #e15b08 0%, #e10808 74%);
   font-family: "Work Sans", arial;
 }
 h2 {

@@ -3,8 +3,9 @@ body {
   margin: 40px;
   overflow-x:hidden ;
   font-family: "Work Sans", arial;
-  color: #fff;
-  background-image: linear-gradient(315deg, #878686 0%, #222222 50%);
+  color: rgb(0, 0, 0);
+  background-color: #05e8ba;
+	background-image: linear-gradient(315deg, #05e8ba 0%, #087ee1 74%);
 }
 h2 {
   text-decoration : underline;
