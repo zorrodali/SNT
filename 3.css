@@ -69,6 +69,26 @@ h2 {
   border-radius: 50px;
   z-index: -1;
 }
+#particules5 {
+  height: 400px;
+  width: 400px;
+  bottom: -500px;
+  left: 200px;
+  transform: rotate(130deg);
+  border-radius: 50px;
+  z-index: -1;
+  animation-delay: 2.5s;
+}
+#particules6 {
+  height: 300px;
+  width: 300px;
+  bottom: -300px;
+  left: 800px;
+  transform: rotate(60deg);
+  border-radius: 50px;
+  z-index: -1;
+  animation-delay: 3.5s;
+}
 
 @keyframes particules {
   0%{
