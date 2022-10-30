@@ -163,8 +163,8 @@ ol li:nth-child(1)::before {
 	background-image: linear-gradient(315deg, #05e8ba 0%, #087ee1 74%);
 }
 ol li:nth-child(2)::before {
-    background-color: #e10808;
-	background-image: linear-gradient(-315deg, #e10808 0%, #e15b08 74%);
+    background-color: #6d071a;
+	background-image: linear-gradient(-315deg, #6d071a 0%, #e15b08 74%);
 }
 ol li:nth-child(3)::before {
     background-color: #f4b400;
