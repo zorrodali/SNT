@@ -298,3 +298,6 @@ input[type="checkbox"]{
    transition-delay: .6s;
   transform: translateX(-100px);
 }
+.title {
+  margin: 50px;
+}
