@@ -21,8 +21,6 @@ h2 {
   font-weight: 900;
   z-index: 2;
 }
-
-/* particles */
 .particules {
   background-color: rgba(0, 0, 0, 0.2);
   position: absolute;
@@ -109,8 +107,8 @@ h2 {
   font-family: 'Oswald', sans-serif;
 }
 .paragraphe {
-  width: 1000px; /* à modifier selon vos besoins */
-  overflow: hidden; /* les dépassements seront masqués */
+  width: 1000px; 
+  overflow: hidden;
   word-wrap: break-word;
   margin: 100px;
 }
