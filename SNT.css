@@ -38,6 +38,7 @@ body {
     left: 130px;
     transform: rotate(65deg);
     border-radius: 30px;
+    z-index: -1;
 }
 #particules2 {
     height: 450px;
@@ -47,6 +48,7 @@ body {
     transform: rotate(130deg);
     border-radius: 50px;
     animation-delay: 1s;
+    z-index: -1;
 }
 #particules3 {
     height: 150px;
@@ -56,6 +58,7 @@ body {
     transform: rotate(255deg);
     border-radius: 20px;
     animation-delay: 2s;
+    z-index: -1;
 }
 #particules4 {
     height: 250px;
@@ -64,6 +67,7 @@ body {
     left: 130px;
     transform: rotate(65deg);
     border-radius: 50px;
+    z-index: -1;
 }
 @keyframes particules {
     0%{
@@ -159,6 +163,7 @@ footer {
     border-right: 3px solid;
     font-family: "Work Sans", arial;
     font-size: 64px;
+    z-index: 5;
   }
   @keyframes text {
     from {
