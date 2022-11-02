@@ -151,3 +151,22 @@ footer {
   .information li a{
     transition: all 0.3s ease 0s;
   }
+  h1 {
+    width: 8.5ch;
+    animation: text 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: "Work Sans", arial;
+    font-size: 64px;
+  }
+  @keyframes text {
+    from {
+        width: 0;
+    }
+  }
+  @keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+  }
